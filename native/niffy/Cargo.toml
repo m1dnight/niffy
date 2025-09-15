@@ -1,0 +1,14 @@
+[package]
+name = "niffy"
+version = "0.1.0"
+authors = []
+edition = "2021"
+
+[lib]
+name = "niffy"
+crate-type = ["cdylib"]
+
+[dependencies]
+rustler = "0.36.2"
+serde = { version = "1.0.219", features = ["derive"] }
+module = "0.2.0"
